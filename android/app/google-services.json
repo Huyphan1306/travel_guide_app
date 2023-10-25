@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "323530779084",
+    "project_id": "travelguideapp-2023",
+    "storage_bucket": "travelguideapp-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323530779084:android:2bea7f2295cf33b2451569",
+        "android_client_info": {
+          "package_name": "com.education.travelguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323530779084-vqv7da8qufk19dkroe77q1dboef6q24h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.education.travelguide",
+            "certificate_hash": "49fa49b4a424a293bf968a99f1d7fb7d01f85615"
+          }
+        },
+        {
+          "client_id": "323530779084-lv28scg67v525ttskpo7f4gsgv00a20v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA58DLxTRo7In9QKN4J9zu0gtLoqZLmj4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323530779084-lv28scg67v525ttskpo7f4gsgv00a20v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

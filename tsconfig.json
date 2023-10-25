@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    /* Completeness */
+    "baseUrl": ".",
+    "paths": {
+      "@navigators": ["app/navigators/index.ts"],
+      "@components": ["app/components/index.ts"],
+      "@screens": ["app/screens/index.ts"],
+      "@services/*": ["app/services/*"],
+      "@theme": ["app/theme/index.ts"],
+      "@utils/*": ["app/utils/*"],
+      "@assets/*": ["assets/*"],
+      "@app/*": ["app/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["index.js", "App.js", "app", "test"],
+  "extends": "expo/tsconfig.base"
+}
